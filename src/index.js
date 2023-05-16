@@ -6,8 +6,6 @@ const inputMessage = document.getElementById('clave');
 const rangeOffset = document.getElementById('rango');
 const result = document.getElementById('encriptado')
 
-console.log('escuchando');
-
 btnEncode.addEventListener("click", (e) => {
   e.preventDefault();
   const string = inputMessage.value;
